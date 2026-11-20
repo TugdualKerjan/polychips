@@ -1,93 +1,125 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PolyChips</title>
-  <meta name="description" content="PolyChips — the EPFL student association promoting chip design.">
+  <meta name="description"
+    content="Want to tape out your own silicon design? PolyChips is the EPFL student association for chip design. Hackathon #1: 28–29 Nov, BC building.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
   <link rel="alternate" hreflang="fr" href="https://polychips.ch/fr/">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <div class="wrap">
-    <a class="logo" href="index.html"><img src="favicon.svg" width="26" height="26" alt=""><b>Poly<span>Chips</span></b></a>
-    <nav>
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="hackathon.html">Hackathon</a>
-      <a href="https://drive.google.com/drive/folders/1d-IkY7mCFhU19xJqkqq1e9NJnR3iRiJG?usp=sharing" target="_blank" rel="noopener">Statutes &amp; GA</a>
-      <a class="lang" href="fr/index.html" lang="fr" hreflang="fr">FR</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <div class="wrap hero">
-    <p class="eyebrow">Student association · EPFL</p>
-    <h1>We love <em>chips</em>.</h1>
-    <p class="lead">PolyChips is a non-profit EPFL student association promoting the field of chip design.</p>
-  </div>
-
-  <section>
+  <header>
     <div class="wrap">
-      <h2>Who we are</h2>
-      <div class="team">
-        <!-- Photos go in img/ (square crop works best). Initials show until the photo exists. -->
-        <div class="person">
-          <div class="photo"><div class="initials">M</div><img src="img/mathieu.jpg" alt="Mathieu" onerror="this.remove()"></div>
-          <h3>Mathieu</h3>
-          <p class="role">President</p>
-        </div>
-        <div class="person">
-          <div class="photo"><div class="initials">I</div><img src="img/ismail.jpg" alt="Ismail" onerror="this.remove()"></div>
-          <h3>Ismail</h3>
-          <p class="role">Vice-President</p>
-        </div>
-        <div class="person">
-          <div class="photo"><div class="initials">C</div><img src="img/cyril.jpg" alt="Cyril" onerror="this.remove()"></div>
-          <h3>Cyril</h3>
-          <p class="role">Treasurer</p>
-        </div>
-        <div class="person">
-          <div class="photo"><div class="initials">G</div><img src="img/gael.jpg" alt="Gael" onerror="this.remove()"></div>
-          <h3>Gael</h3>
-        </div>
-        <div class="person">
-          <div class="photo"><div class="initials">R</div><img src="img/rached.jpg" alt="Rached" onerror="this.remove()"></div>
-          <h3>Rached</h3>
-        </div>
-        <div class="person">
-          <div class="photo"><div class="initials">T</div><img src="img/tugdual.jpg" alt="Tugdual" onerror="this.remove()"></div>
-          <h3>Tugdual</h3>
+      <a class="logo" href="index.html"><img src="favicon.svg" width="26" height="26"
+          alt=""><b>Poly<span>Chips</span></b></a>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="https://drive.google.com/drive/folders/1d-IkY7mCFhU19xJqkqq1e9NJnR3iRiJG?usp=sharing" target="_blank"
+          rel="noopener">Statutes &amp; GA</a>
+        <a class="lang" href="fr/index.html" lang="fr" hreflang="fr">FR</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <h1 class="shout">Want to tape out your own <em>chip</em>?</h1>
+      <p class="lead">
+        Five years ago, taping out your own chip meant selling your kidney, and about a thousand others.
+        Today, open-source tools and PDKs put the whole chip design flow on your laptop. Your kidney stays where it is.
+      </p>
+      <ul class="checks">
+        <li>Go from Verilog to a tape-out-ready layout</li>
+        <li>No prior experience needed</li>
+      </ul>
+    </div>
+
+    <section class="offer">
+      <div class="wrap">
+        <div class="callout">
+          <p class="eyebrow">Hackathon #1 · Sat 28 Nov, 10:00 · BC building, EPFL</p>
+          <h3><span data-countdown data-lang="en">Starts 28 Nov</span>. Spots are limited.</h3>
+          <p>Bring your butt, your computer, and a friend or two, and come out having designed a chip.</p>
+          <div class="actions">
+            <a class="btn" href="https://go.epfl.ch/954fce" target="_blank" rel="noopener">Send it →</a>
+            <a class="btn ghost" href="hackathon.html">Details</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <div class="wrap">
-      <div class="callout">
-        <div>
-          <p class="eyebrow">28–29 Nov · BC building, EPFL</p>
-          <h3>Hackathon #1 — RTL to GDSII in 24h</h3>
+    <section>
+      <div class="wrap">
+        <p class="tagline">We love <em>chips</em>.</p>
+        <p class="intro">No, we aren't sponsored by Zweifel.</p>
+        <div class="team">
+          <div class="person">
+            <div class="photo">
+              <div class="initials">M</div><img src="img/mathieu.jpg" alt="Mathieu" onerror="this.remove()">
+            </div>
+            <h3>Mathieu</h3>
+            <p class="role">President</p>
+          </div>
+          <div class="person">
+            <div class="photo">
+              <div class="initials">I</div><img src="img/ismail.jpg" alt="Ismail" onerror="this.remove()">
+            </div>
+            <h3>Ismail</h3>
+            <p class="role">Vice-President</p>
+          </div>
+          <div class="person">
+            <div class="photo">
+              <div class="initials">C</div><img src="img/cyril.jpg" alt="Cyril" onerror="this.remove()">
+            </div>
+            <h3>Cyril</h3>
+            <p class="role">Treasurer</p>
+          </div>
+          <div class="person">
+            <div class="photo">
+              <div class="initials">G</div><img src="img/gael.jpg" alt="Gael" onerror="this.remove()">
+            </div>
+            <h3>Gael</h3>
+            <p class="role">Gael.</p>
+          </div>
+          <div class="person">
+            <div class="photo">
+              <div class="initials">R</div><img src="img/rached.jpg" alt="Rached" onerror="this.remove()">
+            </div>
+            <h3>Rached</h3>
+            <p class="role">Rached.</p>
+          </div>
+          <div class="person">
+            <div class="photo">
+              <div class="initials">T</div><img src="img/tugdual.jpg" alt="Tugdual" onerror="this.remove()">
+            </div>
+            <h3>Tugdual</h3>
+            <p class="role">Sillycon</p>
+          </div>
         </div>
-        <a class="btn" href="hackathon.html">Details →</a>
       </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 PolyChips · EPFL, 1015 Lausanne</span>
+      <span><a href="https://polychips.ch">polychips.ch</a> · @polychips</span>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer>
-  <div class="wrap">
-    <span>© 2026 PolyChips · EPFL, 1015 Lausanne</span>
-    <span><a href="https://polychips.ch">polychips.ch</a> · @polychips</span>
-  </div>
-</footer>
-
+  <script src="countdown.js"></script>
 </body>
+
 </html>
