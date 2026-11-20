@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 2400 2400">
+  <defs>
+    <pattern id="chips" width="150" height="150" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <g transform="translate(15 15)" fill="none" stroke="#bfb092" stroke-width="3.5" stroke-linecap="round">
+        <!-- package and die -->
+        <rect x="35" y="35" width="50" height="50" rx="8"/>
+        <rect x="47" y="47" width="26" height="26" rx="5"/>
+        <!-- top pins -->
+        <path d="M44 35V22M53 35V14M67 35V22M76 35V14"/>
+        <circle cx="53" cy="9" r="5"/><circle cx="76" cy="9" r="5"/>
+        <!-- bottom pins -->
+        <path d="M44 85V98M53 85V106M67 85V98M76 85V106"/>
+        <circle cx="44" cy="103" r="5"/><circle cx="67" cy="103" r="5"/>
+        <!-- left pins -->
+        <path d="M35 44H14M35 53H22M35 67H14M35 76H22"/>
+        <circle cx="9" cy="44" r="5"/><circle cx="9" cy="67" r="5"/>
+        <!-- right pins -->
+        <path d="M85 44H106M85 53H98M85 67H106M85 76H98"/>
+        <circle cx="103" cy="53" r="5"/><circle cx="103" cy="76" r="5"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="2400" height="2400" fill="url(#chips)"/>
+</svg>

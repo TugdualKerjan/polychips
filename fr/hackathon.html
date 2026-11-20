@@ -1,66 +1,83 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hackathon #1 · PolyChips</title>
-  <meta name="description" content="Hackathon #1 de PolyChips — du RTL au GDSII en 24h avec OpenROAD. 28–29 novembre 2026, bâtiment BC, EPFL.">
+  <meta name="description"
+    content="Hackathon #1 de PolyChips — du RTL au GDSII en 24h avec OpenROAD. 28–29 novembre 2026, bâtiment BC, EPFL.">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
   <link rel="alternate" hreflang="en" href="https://polychips.ch/hackathon.html">
   <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
 
-<header>
-  <div class="wrap">
-    <a class="logo" href="index.html"><img src="../favicon.svg" width="26" height="26" alt=""><b>Poly<span>Chips</span></b></a>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="hackathon.html" aria-current="page">Hackathon</a>
-      <a href="https://drive.google.com/drive/folders/1d-IkY7mCFhU19xJqkqq1e9NJnR3iRiJG?usp=sharing" target="_blank" rel="noopener">Statuts &amp; AG</a>
-      <a class="lang" href="../hackathon.html" lang="en" hreflang="en">EN</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <div class="wrap hero">
-    <p class="eyebrow">Hackathon #1</p>
-    <h1>Du RTL au <em>GDSII</em> en 24h.</h1>
-    <p class="lead">Concevez une puce de A à Z avec le flot open source OpenROAD.</p>
-    <dl class="facts">
-      <div><dt>Début</dt><dd>Sam. 28 nov. · 10h00</dd></div>
-      <div><dt>Fin</dt><dd>Dim. 29 nov. · 10h00</dd></div>
-      <div><dt>Lieu</dt><dd>Bâtiment BC, EPFL</dd></div>
-    </dl>
-    <a class="btn" href="https://go.epfl.ch/954fce" target="_blank" rel="noopener">Réserve ta place →</a>
-    <p class="note">Places limitées. Viens avec un·e ou deux ami·e·s.</p>
-  </div>
-
-  <section>
+  <header>
     <div class="wrap">
-      <h2>Le flot</h2>
-      <ol class="flow">
-        <li>Spécification &amp; RTL</li>
-        <li>Synthèse <code>Yosys</code></li>
-        <li>Floorplan &amp; placement <code>OpenROAD</code></li>
-        <li>Arbre d'horloge &amp; routage <code>OpenROAD</code></li>
-        <li>Timing, DRC &amp; LVS</li>
-        <li>Export GDSII</li>
-      </ol>
+      <a class="logo" href="index.html"><img src="../favicon.svg" width="26" height="26"
+          alt=""><b>Poly<span>Chips</span></b></a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="hackathon.html" aria-current="page">Hackathon</a>
+        <a href="https://drive.google.com/drive/folders/1d-IkY7mCFhU19xJqkqq1e9NJnR3iRiJG?usp=sharing" target="_blank"
+          rel="noopener">Statuts &amp; AG</a>
+        <a class="lang" href="../hackathon.html" lang="en" hreflang="en">EN</a>
+      </nav>
     </div>
-  </section>
-</main>
+  </header>
 
-<footer>
-  <div class="wrap">
-    <span>© 2026 PolyChips · EPFL, 1015 Lausanne</span>
-    <span><a href="https://polychips.ch">polychips.ch</a> · @polychips</span>
-  </div>
-</footer>
+  <main>
+    <div class="wrap hero">
+      <p class="eyebrow">Hackathon #1</p>
+      <h1>Du RTL au <em>GDSII</em> en 24h.</h1>
+      <p class="lead">Concevez une puce de A à Z avec le flow open source OpenROAD.</p>
+      <dl class="facts">
+        <div>
+          <dt>Début</dt>
+          <dd>Sam. 28 nov. · 10h00</dd>
+        </div>
+        <div>
+          <dt>Fin</dt>
+          <dd>Dim. 29 nov. · 10h00</dd>
+        </div>
+        <div>
+          <dt>Lieu</dt>
+          <dd>Bâtiment BC, EPFL</dd>
+        </div>
+      </dl>
+      <a class="btn" href="https://go.epfl.ch/954fce" target="_blank" rel="noopener">Réserve ta place →</a>
+      <p class="note">Places limitées. Viens avec une ou deux amies.</p>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <h2>Le flow</h2>
+        <ol class="flow">
+          <li>Spécification &amp; RTL</li>
+          <li>Synthèse <code>Yosys</code></li>
+          <li>Floorplan &amp; placement <code>OpenROAD</code></li>
+          <li>Arbre d'horloge &amp; routage <code>OpenROAD</code></li>
+          <li>Timing, DRC &amp; LVS</li>
+          <li>Export GDSII</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 PolyChips · EPFL, 1015 Lausanne</span>
+      <span><a href="https://polychips.ch">polychips.ch</a> · @polychips</span>
+    </div>
+  </footer>
 
 </body>
+
 </html>
